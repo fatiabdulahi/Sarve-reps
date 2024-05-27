@@ -1,0 +1,65 @@
+/* display: flex is used*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body{
+ margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffb24f;
+  font-family: 'Raleway', Helvetica, sans-serif,Arial;
+}
+#main{
+  width: 80%;
+  height: fit-content;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   background-color: white;
+   padding: 20px;
+}
+
+header{
+  text-align: center;
+  
+}
+
+.bottom-top-padding{
+ padding-top: 20px;
+ padding-bottom: 20px;
+ width:100%;
+ display: flex;
+ align-items: left;
+ 
+}
+
+.label-div{
+  width: 20%;
+  text-align: left;
+  padding-right: 6px;
+}
+.input-div{
+  width: 70%;
+  text-align: left;
+  padding-left: 6px;
+}
+#submit-div{
+ display: flex;
+  justify-content: center;
+
+}
+.input-text, select, textarea{
+  width: 60%;
+  height: 80%;
+}
+#submit{
+  background-color: #ffb24f;
+  color: white;
+  height: 35px;
+  width: 200px;
+  border-radius: 8px;
+  font-size: 20px; 
+  border: 0px;
+    font-family: 'Raleway', Helvetica, sans-serif,Arial;
+}
